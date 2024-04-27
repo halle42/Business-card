@@ -161,3 +161,15 @@ footer {
       transform: translateX(-100%)
     }
   }
+.bio_more{
+    font-size: 57px;
+}
+.bio_more_selection{
+    background: #9047ff;
+}
+.center{
+    text-align: center;
+}
+.size20{
+    font-size: 20px;
+}

@@ -132,3 +132,44 @@ footer {
 .white{
     color: white;
 }
+.running-layers-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  }
+  
+
+  .running-layers {
+    display: flex; 
+    animation: running-layers 10s linear infinite; 
+  }
+  
+  .running-layers li {
+    flex: 1; 
+    height: 100%; 
+    margin-right: 5px;
+  }
+  
+
+  @keyframes running-layers {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-100%)
+    }
+  }
+.bio_more{
+    font-size: 57px;
+}
+.bio_more_selection{
+    background: #9047ff;
+}
+.center{
+    text-align: center;
+}
+.size20{
+    font-size: 20px;
+}

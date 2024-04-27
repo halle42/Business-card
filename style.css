@@ -15,7 +15,6 @@ header {
 }
 
 .header_left {
-    width: 65%;
     height: 100%;
     font-size: 3vw;
     display: flex;
@@ -24,7 +23,7 @@ header {
     align-items: flex-end;
     padding: 0 5vw;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
 }
 
 .header_left p {
